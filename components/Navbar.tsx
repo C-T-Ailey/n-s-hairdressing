@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram, BsDiamondFill } from "react-icons/bs"
 
 export default function Navbar(){
     return (
-      <div className="fixed w-full h-12 bg-white flex justify-between items-center px-6 text-xl">
+      <div className="fixed w-full h-20 bg-white flex justify-between items-center px-6 text-2xl">
         <h1>Bookings: 555-1234</h1>
         <ul className="list-none w-1/2 flex justify-evenly items-center">
             <li>
@@ -26,9 +26,9 @@ export default function Navbar(){
                 <Link href="/contact">Contact</Link>
             </li>
         </ul>
-        <div className="flex row w-20 justify-between">
-            <BsFacebook size={24}/>
-            <BsInstagram size={24}/>
+        <div className="flex row w-24 justify-between">
+            <BsFacebook size={32}/>
+            <BsInstagram size={32}/>
         </div>
       </div>
     )
