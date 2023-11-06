@@ -1,0 +1,82 @@
+.colour-refs {
+    color: #7e976d;
+    color: #afbea4;
+    color: #d3b5bc;
+    color: #b98894;
+    color: #606060;
+    color: #c2a56c
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #404040;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e5e5e5;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  .hover-underline-animation-green {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation-green:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7e976d;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation-green:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  .hover-underline-animation-pink {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation-pink:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #b98894;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation-pink:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
