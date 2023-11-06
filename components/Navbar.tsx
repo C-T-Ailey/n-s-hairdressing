@@ -11,7 +11,7 @@ export default function Navbar(){
     const navLinkPink: string = "text-neutral-600 hover:text-nicki-pink-deep hover:transition hover:duration-300 duration-700 hover-underline-animation-pink"
 
     return (
-      <div className="fixed w-full h-20 bg-gradient-to-b from-red-50 from-20% to-nicki-pink-pale flex justify-between items-center px-6 text-2xl text-neutral-600 shadow-lg">
+      <div className="fixed w-full h-20 bg-gradient-to-b from-red-50 from-10% to-nicki-pink-pale flex justify-between items-center px-6 text-2xl text-neutral-600 shadow-lg">
       {/* <div className="fixed w-full h-20 bg-gradient-to-br from-[#c6b89b] from-0% via-[#f6efcd] via-50% to-[#c6b89b] to-100% flex justify-between items-center px-6 text-2xl text-neutral-600 shadow-lg"> */}
       {/* <div className="fixed w-full h-20 bg-gradient-to-b from-[#c6aa72] from-0% via-[#fbf1c5] via-50% to-[#c6aa72] to-100% flex justify-between items-center px-6 text-2xl text-neutral-600 shadow-lg"> */}
       {/* <div className="fixed w-full h-20 bg-gradient-to-b from-[#bf953f] from-0% via-[#fcf6ba] via-50% to-[#bf953f] to-100% flex justify-between items-center px-6 text-2xl text-neutral-600 shadow-lg"></div> */}
