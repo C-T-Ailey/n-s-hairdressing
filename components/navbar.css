@@ -7,11 +7,47 @@
     color: #c2a56c
 }
 
+#insta {
+  font-size: 1.7em;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip:text;
+  transition: color 0.3s linear;
+}
+#insta:hover{
+  animation: fade-in 0.3s linear;
+  color:rgba(0,0,0,0);
+}
+
+#fb {
+  font-size: 1.7em;
+  background-color: #0866ff;
+  background-clip: text;
+  -webkit-background-clip:text;
+  transition: color 0.3s linear;
+}
+
+#fb:hover {
+  animation: fade-in 0.3s linear;
+  color:rgba(0,0,0,0);
+}
+
+@keyframes fade-in { 
+  0%{color:rgba(82, 82, 82,1);}
+  100%{color:rgba(0,0,0,0);}
+}
+
+@-webkit-keyframes fade-in { 
+  0%{color:rgba(82, 82, 82,1);}
+  100%{color:rgba(0,0,0,0);}
+}
+
+
 .hover-underline-animation {
     display: inline-block;
     position: relative;
     color: #404040;
-  }
+}
   
   .hover-underline-animation:after {
     content: '';
@@ -80,3 +116,17 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+
+
+.selected-underline-green {
+  color: #7e976d;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.selected-underline-pink {
+  color: #b98894;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}

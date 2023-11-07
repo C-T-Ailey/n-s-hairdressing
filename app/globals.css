@@ -5,7 +5,8 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255; 
+  --background-end-rgb: 255, 255, 255;
+  --background-paper-start-rgb: 255, 252, 245; 
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -21,19 +22,20 @@
   src: local('Room-Medium'), url(../public/fonts/Room-Medium.ttf) format('truetype');
 }
 
-@font-face {
-  font-family: 'Cochin Roman';
-  src: local('Cochin Roman'), url(../public/fonts/Cochin\ Roman.ttf) format('truetype');
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  font-family: 'Room-Medium';
-  /* font-family: 'Cochin Roman'; */
+    background-image: url('../public/linen-bg.jpg');
+    background-size: cover;
+    background-blend-mode: multiply; */
+    font-family: 'Room-Medium';
+    background: #fff;
+    background-image: url('../public/linen-bg.jpg');
+    background-image: url('../public/linen-bg.jpg'), linear-gradient(to bottom, rgb(var(--background-paper-start-rgb)), rgb(var(--background-end-rgb)));
+    background-blend-mode: multiply;
 }
