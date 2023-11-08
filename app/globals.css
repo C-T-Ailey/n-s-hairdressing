@@ -22,6 +22,8 @@
   src: local('Room-Medium'), url(../public/fonts/Room-Medium.ttf) format('truetype');
 }
 
+
+
 body {
   /* color: rgb(var(--foreground-rgb)); */
   /* background: linear-gradient(

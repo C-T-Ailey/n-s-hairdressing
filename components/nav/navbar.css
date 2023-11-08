@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 .colour-refs {
     color: #7e976d;
     color: #afbea4;
@@ -7,41 +9,18 @@
     color: #c2a56c
 }
 
-#insta {
-  font-size: 1.7em;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip:text;
-  transition: color 0.3s linear;
-}
-#insta:hover{
-  animation: fade-in 0.3s linear;
-  color:rgba(0,0,0,0);
+
+.nav-responsive {
+  height: 5rem;
+  font-size: 1.5rem;
 }
 
-#fb {
-  font-size: 1.7em;
-  background-color: #0866ff;
-  background-clip: text;
-  -webkit-background-clip:text;
-  transition: color 0.3s linear;
+@media (max-width: 1280px) {
+  .nav-responsive {
+    height: 3.5rem;
+    font-size: 1rem;
+  }
 }
-
-#fb:hover {
-  animation: fade-in 0.3s linear;
-  color:rgba(0,0,0,0);
-}
-
-@keyframes fade-in { 
-  0%{color:rgba(82, 82, 82,1);}
-  100%{color:rgba(0,0,0,0);}
-}
-
-@-webkit-keyframes fade-in { 
-  0%{color:rgba(82, 82, 82,1);}
-  100%{color:rgba(0,0,0,0);}
-}
-
 
 .hover-underline-animation {
     display: inline-block;
@@ -129,4 +108,20 @@
   color: #b98894;
   text-decoration: underline;
   text-underline-offset: 6px;
+}
+
+.wreath-1-container {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.wreath-1 {
+  position: relative;
+  bottom: 50px;
+  left: 0px;
+  transform: scale(0.5);
 }

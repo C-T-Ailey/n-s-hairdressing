@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center">
 
-      <div className="relative flex place-items-start">
+      <div className="flex place-items-start">
         <Image
-            className="relative mt-[6vh]"
+            className="mt-[6vh]"
             src={transpLogo}
             alt="Nicki Sims Hair logo"
             style={{height: "50vh", width: "auto"}}
