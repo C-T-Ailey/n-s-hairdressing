@@ -1,0 +1,37 @@
+#insta {
+    font-size: 2.4em;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    transition: color 0.3s linear;
+  }
+  #insta:hover{
+    animation: fade-in 0.3s linear;
+    color:rgba(0,0,0,0);
+  }
+  
+  #fb {
+    font-size: 2.4em;
+    background-color: #0866ff;
+    background-clip: text;
+    -webkit-background-clip:text;
+    transition: color 0.3s linear;
+  }
+  
+  #fb:hover {
+    animation: fade-in 0.3s linear;
+    color:rgba(0,0,0,0);
+  }
+
+  .foot-shadow {
+    box-shadow: inset 0px 10px 10px -3px rgba(0,0,0,0.1);}
+  
+  @keyframes fade-in { 
+    0%{color:rgba(82, 82, 82,1);}
+    100%{color:rgba(0,0,0,0);}
+  }
+  
+  @-webkit-keyframes fade-in { 
+    0%{color:rgba(82, 82, 82,1);}
+    100%{color:rgba(0,0,0,0);}
+  }

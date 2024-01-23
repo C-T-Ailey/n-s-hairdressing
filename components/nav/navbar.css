@@ -1,0 +1,127 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+.colour-refs {
+    color: #7e976d;
+    color: #afbea4;
+    color: #d3b5bc;
+    color: #b98894;
+    color: #606060;
+    color: #c2a56c
+}
+
+
+.nav-responsive {
+  height: 5rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1280px) {
+  .nav-responsive {
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #404040;
+}
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e5e5e5;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  .hover-underline-animation-green {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation-green:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7e976d;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation-green:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  .hover-underline-animation-pink {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation-pink:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #b98894;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation-pink:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+.selected-underline-green {
+  color: #7e976d;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.selected-underline-pink {
+  color: #b98894;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.wreath-1-container {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.wreath-1 {
+  position: relative;
+  bottom: 50px;
+  left: 0px;
+  transform: scale(0.5);
+}
