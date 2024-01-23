@@ -22,7 +22,7 @@ export default function Navbar(){
 
     const navLinkPink: string = "text-neutral-600 hover:text-nicki-pink-deep hover:transition hover:duration-300 duration-700 hover-underline-animation-pink"
 
-    const selectedNavPink: string = 'select-none pointer-events-none selected-underline-pink'
+    const selectedNavPink: string = "select-none pointer-events-none selected-underline-pink"
 
     return (
       <div className="nav fixed w-full bg-gradient-to-b from-nicki-pink-pale from-10% to-red-50 flex justify-between items-center px-6 text-neutral-600 shadow-lg nav-responsive">
@@ -63,7 +63,7 @@ export default function Navbar(){
             <h1 className=''>Bookings:<br/>07123 345678</h1>
         </div>
         <div className='wreath-1-container'>
-            <Image className='wreath-1' src={Wreath1} alt=''/>
+            <Image className='wreath-1' src={Wreath1} alt='decorative fronds'/>
         </div>
         {/* <div className='wreath-decoration'>
             <Image className='absolute z-0' src={Wreath2} alt=''/>
