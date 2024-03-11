@@ -25,12 +25,12 @@ export default function Navbar(){
     const selectedNavPink: string = "select-none pointer-events-none selected-underline-pink"
 
     return (
-      <div className="nav fixed w-full bg-gradient-to-b from-nicki-pink-pale from-10% to-red-50 flex justify-between items-center px-6 text-neutral-600 shadow-lg nav-responsive">
-        <div className='flex flex-row items-center w-60'>
-            <Image className='absolute z-10' src={NavbarLogo} width={100} alt="nav logo"></Image>
-            {/* <h1 className=''>Bookings:<br/>07123 345678</h1> */}
+      <div className="nav fixed w-full bg-gradient-to-b from-nicki-pink-pale from-10% to-red-50 flex justify-between md:items-center px-2 md:px-6 text-neutral-600 text-base xl:text-2xl shadow-lg h-[5rem]">
+        <div className='flex flex-row items-center w-20'>
+            <Image className='absolute z-10 w-[7rem]' src={NavbarLogo} alt="nav logo"></Image>
+            
         </div>
-        <ul className="list-none w-1/2 flex justify-evenly items-center">
+        <ul className="list-none w-1/2 hidden md:flex justify-evenly items-center">
             <li>
                 <Link href="/" id="home" className={path === "/" ? selectedNavGreen : navLinkGreen}>Home</Link> 
             </li>
@@ -59,12 +59,12 @@ export default function Navbar(){
                 <Link href="/contact" id="contact" className={path === "/contact" ? selectedNavGreen : navLinkGreen} >Contact</Link>
             </li>
         </ul>
-        <div className="flex w-60 items-center">
+        <div className="flex w-30 items-center">
             <h1 className=''>Bookings:<br/>07123 345678</h1>
         </div>
-        <div className='wreath-1-container'>
+        {/* <div className='wreath-1-container'>
             <Image className='wreath-1' src={Wreath1} alt='decorative fronds'/>
-        </div>
+        </div> */}
         {/* <div className='wreath-decoration'>
             <Image className='absolute z-0' src={Wreath2} alt=''/>
             <Image className='absolute z-0' src={Wreath3} alt=''/>
