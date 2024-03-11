@@ -38,7 +38,7 @@ const priceIsAnObject = [
       <br/>
               <div className=" w-[90vw] lg:w-[60vw] text-center m-auto">
                 <p className="text-xl">Always happy to accommodate your needs </p>
-                <p className="text-lg">If you require a service which isn't listed below, don't hesistate to get in touch!</p>
+                <p className="text-lg">If you require a service which isn&apos;t listed below, don&apos;t hesistate to get in touch!</p>
               </div>
               <br/>
               {/* <div className="w-[90vw] h-[50vh] lg:w-[50vw] m-auto services flex flex-row justify-around text-2xl">
@@ -60,8 +60,8 @@ const priceIsAnObject = [
                         </ul>
                       </div> */}
               <div className="service-table grid justify-center">
-                {priceIsAnObject.map(service =>
-                  <div className="grid grid-cols-2 grid-rows-7">
+                {priceIsAnObject.map((service, index) =>
+                  <div key={index} className="grid grid-cols-2 grid-rows-7">
                     <div className="row-start-1 row-end-1 col-start-1 col-end-1 text-start">
                       {Object.keys(service)}
                     </div>
